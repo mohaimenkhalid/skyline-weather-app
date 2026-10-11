@@ -69,7 +69,6 @@ export default function App() {
   const [locating, setLocating] = useState(false)
   const [notice, setNotice] = useState('')
   const [attempt, setAttempt] = useState(0)
-
   useEffect(() => store.set('unit', unit), [unit])
 
   useEffect(() => {
